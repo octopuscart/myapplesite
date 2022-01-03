@@ -43,6 +43,15 @@
     </head>
 
 </head>
+<?php
+$listofmenu = [
+    array("title" => "Home", "link" => site_url("/")),
+    array("title" => "Privacy Policy", "link" => site_url("privacy-policy")),
+    array("title" => "Terms & Conditions", "link" => site_url("terms-and-conditions")),
+    array("title" => "Contact Us", "link" => site_url("contact-us")),
+];
+?>
+
 <body>
     <!--Start Preloader -->
     <div class="onloadpage" id="page_loader">
@@ -62,20 +71,18 @@
                     </a></div>
                 <div class="custom-nav" role="navigation">
                     <ul class="nav-list">
-                        <li class=""><a href="#" class="menu-links">INSIGHTS</a></li>
-                        <li class=" "><a href="#" class="menu-links">SERVICES</a></li>
-                        <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
-                        <li class=" "><a href="#" class="menu-links">WORKS</a></li>
-                        <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
-                        <li><a href="#" class="menu-links right-bddr">&nbsp;</a>
-                            <!--menu right border-->
+                        <?php
+                        foreach ($listofmenu as $key => $value) {
+                            ?>
+                            <li class=""><a href="<?php echo $value["link"] ?>" class="menu-links"><?php echo $value["title"] ?></a></li>
+                        <?php }
+                        ?>
+                        <!--menu right border-->
 
-                        <li><a href="#" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
                     </ul>
                 </div>
                 <div class="mobile-menu2">
                     <ul class="mob-nav2">
-                        <li><a href="#" class="btn-round- trngl btn-br bg-btn btshad-b1" id="mobilepopup"><i class="fas fa-envelope-open-text" aria-label="Contact Us"></i></a></li>
                         <li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
                     </ul>
                 </div>
@@ -84,11 +91,13 @@
             <!--Mobile Menu-->
             <nav id="main-nav">
                 <ul class="first-nav">
-                    <li class=""><a href="#" class="menu-links">INSIGHTS</a></li>
-                    <li class=" "><a href="#" class="menu-links">SERVICES</a></li>
-                    <li class=" "><a href="#" class="menu-links">INDUSTRIES</a></li>
-                    <li class=" "><a href="#" class="menu-links">WORKS</a></li>
-                    <li class=" "><a href="#" class="menu-links">CONTACT US</a></li>
+                    <?php
+                    foreach ($listofmenu as $key => $value) {
+                        ?>
+                        <li class=""><a  class="menu-links" href="<?php echo $value["link"] ?>" class="menu-links"><?php echo $value["title"] ?></a></li>
+                        <?php }
+                        ?>
+
                 </ul>
 
             </nav>

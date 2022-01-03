@@ -58,5 +58,6 @@ $route['privacy-policy'] = 'Shop/privacy_policy';
 $route['mask/(:any)'] = 'Pages/mask/$1';
 $route['protection/(:any)'] = 'Pages/protection/$1';
 $route['services/(:any)'] = 'Pages/services/$1';
-
+$route['terms-and-conditions'] = 'Shop/tnc';
+$route['refund-policy'] = 'Shop/refund';
 $route['translate_uri_dashes'] = FALSE;

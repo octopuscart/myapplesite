@@ -104,11 +104,15 @@ class Shop extends CI_Controller {
         // $this->load->view('pages/faq');
     }
 
-    public function catalogue() {
-        //  $this->load->view('pages/catalogue');
+    public function refund() {
+          $this->load->view('pages/refund');
     }
     
-    function privacy_policy(){
+    function tnc(){
+           $this->load->view('pages/tnc');
+    }
+    
+     function privacy_policy(){
            $this->load->view('pages/pp');
     }
 

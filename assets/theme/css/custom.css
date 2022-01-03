@@ -6,3 +6,7 @@
     margin: 0 8px;
     vertical-align: middle;
 }
+
+.dsk-logo .nav-brand img {
+    max-height: 44px;
+}

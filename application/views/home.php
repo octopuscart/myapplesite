@@ -6,373 +6,111 @@ $this->load->view('layout/header');
 
 <!--End Header -->
 <!--Start Hero-->
-<section class="hero-card-web bg-gradient12 shape-bg3">
+<!--Start Hero-->
+<section class="hero-card-web mobile-app-" id="home">
     <div class="hero-main-rp container-fluid">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="hero-heading-sec">
-                    <h2 class="wow fadeIn" data-wow-delay="0.3s"><span>Web Development.</span> <span>Apps Development.</span> <span>Graphic Designing.</span> <span> Digital Marketing.</span><span>IT CONSULTANCY.</span><span> ERP SOLUTIONS.</span></h2>
-                    <p class="wow fadeIn" data-wow-delay="0.6s">Website and App development solution for transforming and innovating businesses.</p>
-                    <a href="#" class="btn-main bg-btn lnk wow fadeIn"  data-wow-delay="0.8s">View Case Studies <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
+        <div class="row mt-3">
+            <div class="col-lg-5 v-center">
+                <div class="hero-heading-sec2 niwax" data-rellax-speed="3">
+                    <h1 class="wow fadeIn" data-wow-delay="0.2s">Discover people nearby, find  friends or the love!</h1>
+                    <p class="wow fadeIn" data-wow-delay="0.4s">MyApple is not only a dating app, it enables you to meet to new people, attractive singles, and enjoy entertaining live videos in real time.</p>
+                    <div class="content-sec  d-flex mt40 v-center text-w wow fadeIn" data-wow-delay="0.6s">
+                        <div class="mr25">
+                            <a href="#" class="btn-main bg-btn4 lnk">
+                                <img src="<?php echo base_url(); ?>assets/theme/images/playstore_w.png" style="    height: 45px;" class="img-fluid"> 
+                            </a>
+
+                        </div>
+                        <div class="mr25">
+
+                            <a href="#" class="btn-main bg-btn4 lnk">
+                                <img src="<?php echo base_url(); ?>assets/theme/images/appstore_w.png" style="    height: 45px;" class="img-fluid"> 
+                            </a>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-            <div class="col-lg-7">
-                <div class="hero-content-sec wow fadeIn" data-wow-delay="0.8s">
-                    <div class="video-intro-pp"><a class="video-link play-video" href="#"><span class="triangle-play"></span></a></div>
-                    <div class="title-hero-oth"><p>We design digital solutions <span>for brands and companies</span></p></div>
-                </div>
-                <div class="hero-right-scmm">
-                    <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
-                        <div class="owl-carousel service-card-prb">
-                            <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
-                                    <div class="service-card-hh">
-                                        <div class="image-sr-mm">
-                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/mob-service-item3.png">
-                                        </div>
-                                        <div class="title-serv-c"><span>Web Design & Development</span> Solution</div>
-                                    </div></a>
-                            </div>
-                            <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
-                                    <div class="service-card-hh">
-                                        <div class="image-sr-mm">
-                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/app-develop.png">
-                                        </div>
-                                        <div class="title-serv-c"><span>Custom</span> Mobile  App Solution</div>
-                                    </div></a>
-                            </div>
-                            <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
-                                    <div class="service-card-hh">
-                                        <div class="image-sr-mm">
-                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/service-img-2.png">
-                                        </div>
-                                        <div class="title-serv-c"><span>IT Solutions & Consultant</span> Services</div>
-                                    </div></a>
-                            </div>
-                            <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
-                                    <div class="service-card-hh">
-                                        <div class="image-sr-mm">
-                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/car-rental.png">
-                                        </div>
-                                        <div class="title-serv-c"><span>Integrated communications</span> Services</div>
-                                    </div></a>
-                            </div>
-                            <div class="service-slide card-bg-e" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
-                                    <div class="service-card-hh">
-                                        <div class="image-sr-mm">
-                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/marketing.png">
-                                        </div>
-                                        <div class="title-serv-c"><span>Business Marketing</span> Solution</div>
-                                    </div></a>
-                            </div>
-                            <div class="service-slide card-bg-f" data-tilt data-tilt-max="5" data-tilt-speed="1000"><a href="#">
-                                    <div class="service-card-hh">
-                                        <div class="image-sr-mm">
-                                            <img alt="custom-sport" src="<?php echo base_url(); ?>assets/theme/images/service/seo.png">
-                                        </div>
-                                        <div class="title-serv-c"><span>SEO & Digital
-                                                Marketing</span> Solution</div>
-                                    </div></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-7 v-center">
+                <div class="app-hero-bnr wow fadeIn" data-wow-delay="0.4s"> <img src="<?php echo base_url(); ?>assets/theme/images/hero/mobile_hero_banner.png" alt="niwax mobile app development company" class="img-fluid"> </div>
             </div>
         </div>
     </div>
 </section>
 <!--End Hero-->
-
-<!--Start work-category-->
-<section class="work-category pad-tb tilt3d">
-    <div class="container">
-        <div class="row">
-
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-10">
-                    <div class="common-heading">
-                        <span class="">We Are Creative Agency</span>
-                        <h1 class="mb30 text-radius text-light text-animation bg-b">VARBIN SOFTWARES <br/>MULTI SOLUTION COMPANY
-                        </h1>
-                        <p>We provides a broad, deep spectrum of technology services to help organizations translate their strategic business agendas into IT initiatives and solutions that measurably improve performance.</p>
-                     
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-12">
-                <div class="work-card-set">
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/ai-icon.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Artificial intelligence</p>
-                        </div>
-                    </div>
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
-                        <div class="work-card cd8">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/hosing-icon.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Web Hosting & Email Service</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd4">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/mobileapp.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Web Design & Development</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd5">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/mobileapp.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Mobile App Development</p>
-                        </div>
-                    </div>
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".2s">
-                        <div class="work-card cd1">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-1.png" alt="Industries" /></div>
-                            <p>Social Networking</p>
-                        </div>
-                    </div>
-                    <div  class="icon-set wow fadeIn" data-wow-delay=".4s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-2.png" alt="Industries" /></div>
-                            <p>Digital Marketing</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay=".6s">
-                        <div class="work-card cd8">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-3.png" alt="Industries" /></div>
-                            <p>Ecommerce Development</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay=".8s">
-                        <div class="work-card cd4">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-4.png" alt="Industries" /></div>
-                            <p>Video Editing</p>
-                        </div>
-                    </div>
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd11">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/eml-mkrt.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Email Marketing</p>
-                        </div>
-                    </div>
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd1">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/d-mkrt.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Direct Marketing</p>
-                        </div>
-                    </div>
+<!--End Hero-->
 
 
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/blog.svg" style="height: 62px;" alt="Industries" /></div>
-                            <p>Blogging - Content Writing</p>
-                        </div>
-                    </div>
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd8">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/grf-icon.png" style="height: 62px;" alt="Industries" /></div>
-                            <p>Graphics Designing</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1s">
-                        <div class="work-card cd5">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-5.png" alt="Industries" /></div>
-                            <p>Business Accounting</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1.2s">
-                        <div class="work-card cd11">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-6.png" alt="Industries" /></div>
-                            <p>Business ERP Solution</p>
-                        </div>
-                    </div>
-                    <div class="icon-set wow fadeIn" data-wow-delay="1.4s">
-                        <div class="work-card cd1">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-7.png" alt="Industries" /></div>
-                            <p>Education Consultant Service</p>
-                        </div>
-                    </div>
-
-                    <div class="icon-set wow fadeIn" data-wow-delay="2.4s">
-                        <div class="work-card cd6">
-                            <div class="icon-bg"><img src="<?php echo base_url(); ?>assets/theme/images/icons/icon-12.png" alt="Industries" /></div>
-                            <p>IT Solutions & Consultant</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End  work-category-->
 
 <!--Start About-->
-<section class="about-agency pad-tb">
+<section class="about-agency pad-tb" style="padding-bottom: 0px;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 v-center">
                 <div class="image-block">
-                    <img src="<?php echo base_url(); ?>assets/theme/images/about/about-service.png" alt="about" class="img-fluid no-shadow" />
+                    <img src="<?php echo base_url(); ?>assets/theme/images/ad/handapp.png" alt="about" class="img-fluid no-shadow" />
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="common-heading text-l">
-                    <span>Fast Growing IT Services Company.</span>
-                    <h2>About Us</h2>
-                    <p>Varbin Softwares means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.
-                        The greatest strength of a company profile preparation is that it makes an emotional as well as a logical connection with our customers by communicating with them in a way that leads them to value and trust our brand. The result: loyal customers, great enhancement of each customer’s lifetime value and our long-term profitable core relationship.
+                    <span>GETTING OVER SOMEONE YOU DON’T KNOW WELL</span>
+                    <h2>THE FANTASY OF DATING SOMEONE</h2>
+                    <p>
+                        We often meet that special person when we’re least expecting it. MyApple is the app that connects you to the people you,
+
                     </p>
-                    <p class="quote">With a strong focus on Retail, Consumer Goods and Logistics industries, we are creating strategic long term relationships with our customers, making a difference to them through our offices in many countries across US, Europe and Asia. </p>
-                    <div class="user- mt30">
-                        <div class="media">
-                            <div class="media-body user-info v-center">
-                                <h5>Pankaj Pathak</h5>
-                                <p>Founder of <span>Varbin Softwares </span></p>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="mt20">
+                        Some time people used the net to find friends or to meet other people online who share the same hobbies and other likings.
+                        People have used the web to find someone to spend time with, whether that’s for a short time or a long-term relationship. 
+                    </p>
+
+                    <p class="mt20">
+                        Love needs both emotional and physical attraction.
+                        All of us want to share happiness, sorrow, and life experiences with someone else. 
+                        If love is based just on physical attraction, at some point you will begin to wonder if your relationship has a future.
+                        A deep friendship is also essential.
+                    </p>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--End About-->
-<!--Start Service-->
-<section class="service-section web-servic pad-tb">
+<!--Start Clients-->
+<section class="clients-section-app pad-tb" id="clients">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="common-heading">
-                    <span>Services We’re Provided</span>
-                    <h2 class="mb30">Our Core Design & Development Services</h2>
+                <div class="common-heading text-w">
+                    <span>Our happy Users</span>
+                    <h2 class="mb30">Some of our Users</h2>
                 </div>
             </div>
         </div>
-        <div class="row upset link-hover shape-num justify-content-center">
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.2s">
-                <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/branding.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Business & Branding Service</h4>
-                    <p>We provide a robust and professional toolset to build ultra-modern<br/> experiences of working.</p>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="client-logoset">
+                    <ul class="row text-center clearfix apppg">
+                        <?php
+                        $clients = [1,2,3,4,5,6,7,8,9,10,11,12];
+                        foreach ($clients as $key => $value) {
+                            ?>
+                            <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".2s">
+                                <div class="brand-logo hoshd"><img src="https://i.pravatar.cc/150?img=<?php echo $key+1;?>" alt="clients" class="img-fluid"></div>
+                            
+                            </li>
+                            <?php
+                        }
+                        ?>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.4s">
-                <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/development.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Web App Design & Development</h4>
-                    <p>Proficient Web application developers who make app<br/> development seem effortless.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
-                <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/app.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Mobile App Development</h4>
-                    <p>We provide bespoke Mobility Solutions in Native Apps, Cross <br/>platform app and Web apps.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.8s">
-                <div class="s-block mb0" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                    <div class="s-card-icon"><img src="<?php echo base_url(); ?>assets/theme/images/icons/marketing.svg" alt="service" class="img-fluid"/></div>
-                    <h4>Digital Marketing Service</h4>
-                    <p>We analys brand positioning and create more custom strategy that brings in desired results. </p>
-                </div>
-            </div>
-        </div>
-        <div class="-cta-btn mt70">
-            <div class="free-cta-title v-center wow zoomInDown" data-wow-delay=".9s">
-                <p>Hire a <span>Dedicated Developer</span></p>
-                <a href="#" class="btn-main bg-btn2 lnk">Hire Now<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
             </div>
         </div>
     </div>
 </section>
-<!--End Service-->
-<!--Start statistics-->
-<div class="statistics-section bg-gradient pad-tb tilt3d">
-    <div class="container">
-
-        <div class="row small t-ctr">
-            <div class="col-lg-3 col-sm-6">
-                <div class="statistics">
-                    <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="<?php echo base_url(); ?>assets/theme/images/icons/deal.svg" alt="happy" class="img-fluid" />
-                    </div>
-                    <div class="statnumb">
-                        <span class="counter">100</span><span>+</span>
-                        <p>Happy Clients</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="statistics">
-                    <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="<?php echo base_url(); ?>assets/theme/images/icons/computers.svg" alt="project" class="img-fluid" />
-                    </div>
-                    <div class="statnumb counter-number">
-                        <span class="counter">120</span><span>+</span>
-                        <p>Projects Done</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="statistics">
-                    <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="<?php echo base_url(); ?>assets/theme/images/icons/worker.svg" alt="work" class="img-fluid" />
-                    </div>
-                    <div class="statnumb">
-                        <span class="counter">11</span><span>+</span>
-                        <p>Year In Business</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="statistics mb0">
-                    <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img">
-                        <img src="<?php echo base_url(); ?>assets/theme/images/icons/customer-service.svg" alt="support" class="img-fluid" />
-                    </div>
-                    <div class="statnumb">
-                        <span>24/7</span>
-                        <p>Support Available</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End statistics-->
-
-
-<!--Start work-category-->
-<section class="work-category pad-tb">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="common-heading ptag">
-                    <span>We Have Worked Across Multiple Industries</span>
-                    <h2>Industries We Serve</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row mt30">
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="0.1s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/house.svg" alt="img"> <h6>Real estate</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="0.3s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/travel-case.svg" alt="img"> <h6>Tour &amp; Travels</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="0.5s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/video-tutorials.svg" alt="img"> <h6>Education</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="0.7s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/taxi.svg" alt="img"> <h6>Transport</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="0.9s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/event.svg" alt="img"> <h6>Event</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="1.1s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/smartphone.svg" alt="img"> <h6>eCommerce</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="1.3s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/joystick.svg" alt="img"> <h6>Game</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="1.5s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/healthcare.svg" alt="img"> <h6>Healthcare</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="1.7s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/money-growth.svg" alt="img"> <h6>Finance</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="1.9s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/baker.svg" alt="img"> <h6>Restaurant</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="2.1s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/mobile-app.svg" alt="img"> <h6>On-Demand</h6> </div></div>
-            <div class="col-lg-3 col-sm-6 col-6 wow fadeIn" data-wow-delay="2.3s"> <div class="industry-workfor hoshd"><img src="<?php echo base_url(); ?>assets/theme/images/icons/groceries.svg" alt="img"> <h6>Grocery</h6> </div></div></div>
-    </div>
-</section>
-<!--End  work-category-->
+<!--End Clients-->
 
 <!--Start Testinomial-->
 <section class="testinomial-section pad-tb">
@@ -380,8 +118,8 @@ $this->load->view('layout/header');
         <div class="row">
             <div class="col-lg-5 v-center">
                 <div class="common-heading text-l">
-                    <span>Clients Testimonial</span>
-                    <h2 class="mb0">What our clients say about our Company.</h2>
+                    <span>Users Testimonial</span>
+                    <h2 class="mb0">What our Users say about our App.</h2>
                 </div>
             </div>
             <div class="col-lg-7">
@@ -389,10 +127,7 @@ $this->load->view('layout/header');
 
                     <div class="testimonial-card">
                         <div class="t-text">
-                            <p>The design is great, the code is easy to modify. 
-                                As a developer it was easy for me to understand and modify the code - it was organised, well documented, and used correct conventions.
-
-                                It was delightful to see such a professional job.</p>
+                            <p>Amazing app for connecting people could be better with fixing problems with notifications not happening while they are set on. And be q tad cheaper</p>
                         </div>
                         <div class="client-thumbs mt30">
                             <div class="media v-center">
@@ -404,69 +139,14 @@ $this->load->view('layout/header');
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-card">
-                        <div class="t-text">
-                            <p>Superb customer support! I have purchased a few themes and Mr. Bari is very fast and polite. Great template, author is very helpful, best customer support ever! Very nice looking theme and easy to customise once you get hang of page builder..</p>
-                        </div>
-                        <div class="client-thumbs mt30">
-                            <div class="media v-center">
-                                <div class="user-image bdr-radius"><img src="<?php echo base_url(); ?>assets/theme/images/user-thumb/ur2.png" alt="girl" class="img-fluid" /></div>
-                                <div class="media-body user-info">
-                                    <h5>Ben Law</h5>
-                                    <p>Goolge Review,</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                 
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--End Testinomial-->
-<!--Start Enquire Form-->
-<section class="enquire-form pad-tb">
-    <div class="container">
-        <div class="row light-bgs">
-            <div class="col-lg-6">
-                <div class="common-heading text-l">
-                    <span>Contact Now</span>
-                    <h2 class="mt0">Have Question? Write a Message</h2>
-                </div>
-                <div class="form-block">
-                    <form action="#" method="post" name="feedback-form">
-                        <div class="fieldsets row">
-                            <div class="col-md-6">
-                                <label for="inputname">Your Name</label>
-                                <input type="text" placeholder="Full Name" name="name" id="inputname"></div>
-                            <div class="col-md-6">
-                                <label for="inputemail">Your Email</label>
-                                <input type="email" placeholder="Email Address" name="email" id="inputemail">
-                            </div>
-                        </div>
-                        <div class="fieldsets row">
-                            <div class="col-md-6"><label for="inputcontact">Your Contact No.</label><input id="inputcontact" type="number" placeholder="Contact Number" name="phone"></div>
-                            <div class="col-md-6"><label for="inputsubject">Subject</label><input type="text" id="inputsubject" placeholder="Subject" name="subject"></div>
-                        </div>
-                        <div class="fieldsets"><label for="inputmessage">Type Here</label><textarea placeholder="Message" name="message" id="inputmessage"></textarea></div>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" checked="checked">
-                            <label class="custom-control-label" for="customCheck">I agree to the <a href="#">Terms &amp; Conditions</a> of Costco Int'l </label>
-                        </div>
-                        <div class="fieldsets mt20"> <button type="submit" name="submit" class="lnk btn-main bg-btn">Submit <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button> </div>
-                        <p class="trm"><i class="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-6 v-center">
-                <div class="enquire-image">
-                    <img src="<?php echo base_url(); ?>assets/theme/images/about/hellopic.png" alt="enquire" class="img-fluid" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End Enquire Form-->
+
 
 <?php
 $this->load->view('layout/footer');
