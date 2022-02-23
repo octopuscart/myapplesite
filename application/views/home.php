@@ -12,8 +12,8 @@ $this->load->view('layout/header');
         <div class="row mt-3">
             <div class="col-lg-5 v-center">
                 <div class="hero-heading-sec2 niwax" data-rellax-speed="3">
-                    <h1 class="wow fadeIn" data-wow-delay="0.2s">Discover people nearby, find  friends or the love!</h1>
-                    <p class="wow fadeIn" data-wow-delay="0.4s">MyApple is not only a dating app, it enables you to meet to new people, attractive singles, and enjoy entertaining live videos in real time.</p>
+                    <h1 class="wow fadeIn" data-wow-delay="0.2s">Discover people nearby, find  friends!</h1>
+                    <p class="wow fadeIn" data-wow-delay="0.4s">MyApple is not only a social connecting app, it enables you to meet to new people, attractive singles, and enjoy entertaining live videos in real time.</p>
                     <div class="content-sec  d-flex mt40 v-center text-w wow fadeIn" data-wow-delay="0.6s">
                         <div class="mr25">
                             <a href="#" class="btn-main bg-btn4 lnk">
@@ -55,7 +55,7 @@ $this->load->view('layout/header');
             <div class="col-lg-6">
                 <div class="common-heading text-l">
                     <span>GETTING OVER SOMEONE YOU DON’T KNOW WELL</span>
-                    <h2>THE FANTASY OF DATING SOMEONE</h2>
+                    <h2>CONNECTING SOMEONE</h2>
                     <p>
                         We often meet that special person when we’re least expecting it. MyApple is the app that connects you to the people you,
 

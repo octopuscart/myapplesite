@@ -37,7 +37,7 @@ $this->load->view('layout/header');
                 <p>
 
                     These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and 
-                    My Apple ("Company," “we," “us," or “our”), concerning your access to and use of the myapple.varbin.com website as well as any other media form, media channel, 
+                    My Apple ("Company," “we," “us," or “our”), concerning your access to and use of the myapple.co.in website as well as any other media form, media channel, 
                     mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). We are registered in India and have our registered office at Mumbai, Maharastra. You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
                     Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. 
                     We reserve the right, in our sole discretion, to make changes or modifications to these Terms of Use at any time and for any reason. 
@@ -187,7 +187,7 @@ $this->load->view('layout/header');
                 <p><b>   10. PRIVACY POLICY</b> </p>
 
                 <p>
-                    We care about data privacy and security. Please review our Privacy Policy: https://myapple.varbin.com/privacy-policy. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in India. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Site, you are transferring your data to India, and you agree to have your data transferred to and processed in India.
+                    We care about data privacy and security. Please review our Privacy Policy: https://myapple.co.in/privacy-policy. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in India. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Site, you are transferring your data to India, and you agree to have your data transferred to and processed in India.
 
                 </p>
 
